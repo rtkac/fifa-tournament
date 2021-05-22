@@ -1,0 +1,20 @@
+module.exports = {
+  projects: [
+    ,
+    '<rootDir>/apps/api',
+    '<rootDir>/apps/fifa-tournament-fe',
+    '<rootDir>/apps/fifa-tournament-api',
+    '<rootDir>/libs/fifa-tournament-fe/components',
+    '<rootDir>/libs/fifa-tournament/helpers',
+    '<rootDir>/libs/fifa-tournament/components',
+    '<rootDir>/libs/fifa-tournament/containers/homepage',
+    '<rootDir>/libs/core/api',
+    '<rootDir>/libs/core/redux',
+    '<rootDir>/libs/core',
+    '<rootDir>/libs/fifa-tournament/containers',
+    '<rootDir>/libs/fifa-tournament/reducers',
+    '<rootDir>/libs/fifa-tournament/actions',
+    '<rootDir>/libs/fifa-tournament/sagas',
+    '<rootDir>/libs/fifa-tournament',
+  ],
+}

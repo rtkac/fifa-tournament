@@ -1,0 +1,57 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": ["es2020", "dom"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@core/api": ["libs/core/src/api/index.ts"],
+      "@core/types": ["libs/core/src/types/index.ts"],
+      "@fifa-tournament/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@fifa-tournament/components": [
+        "libs/fifa-tournament/src/components/index.ts"
+      ],
+      "@fifa-tournament/containers": [
+        "libs/fifa-tournament/src/containers/index.ts"
+      ],
+      "@fifa-tournament/helpers": [
+        "libs/fifa-tournament/src/helpers/index.ts"
+      ],
+      "@fifa-tournament/reducers": [
+        "libs/fifa-tournament/src/reducers/index.ts"
+      ],
+      "@fifa-tournament/actions": [
+        "libs/fifa-tournament/src/actions/index.ts"
+      ],
+      "@fifa-tournament/actionTypes": [
+        "libs/fifa-tournament/src/actionTypes/index.ts"
+      ],
+      "@fifa-tournament/api": [
+        "libs/fifa-tournament/src/api/index.ts"
+      ],
+      "@fifa-tournament/sagas": [
+        "libs/fifa-tournament/src/sagas/index.ts"
+      ],
+      "@fifa-tournament/types": [
+        "libs/fifa-tournament/src/types/index.ts"
+      ],
+      "@fifa-tournament": ["libs/fifa-tournament/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

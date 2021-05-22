@@ -1,0 +1,70 @@
+{
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "fifa-tournament",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "api-interfaces": {
+      "tags": []
+    },
+    "fifa-tournament-fe": {
+      "tags": []
+    },
+    "fifa-tournament-fe-e2e": {
+      "tags": [],
+      "implicitDependencies": ["fifa-tournament-fe"]
+    },
+    "fifa-tournament-api": {
+      "tags": []
+    },
+    "fifa-tournament-helpers": {
+      "tags": []
+    },
+    "fifa-tournament-components": {
+      "tags": []
+    },
+    "fifa-tournament-components-e2e": {
+      "tags": [],
+      "implicitDependencies": ["fifa-tournament-components"]
+    },
+    "core": {
+      "tags": []
+    },
+    "fifa-tournament-containers": {
+      "tags": []
+    },
+    "fifa-tournament-reducers": {
+      "tags": []
+    },
+    "fifa-tournament-actions": {
+      "tags": []
+    },
+    "fifa-tournament-sagas": {
+      "tags": []
+    },
+    "fifa-tournament": {
+      "tags": []
+    }
+  }
+}
